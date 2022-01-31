@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Plan</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go">go</string>
+    <string name="dailytask">Daily Work</string>
+    <string name="maintask">Goals</string>
+    <string name="profile">Profile</string>
+    <string name="adddailytask">Enter your Daily Task</string>
+    <string name="add">Add Task</string>
+    <string name="plus">+</string>
+    <string name="addmaintask">Enter your goal</string>
+    <string name="editdaily">Edit your Task</string>
+    <string name="edit">Edit</string>
+    <string name="addgoal">Enter your Goal</string>
+    <string name="addgoalbtn">Add</string>
+    <string name="skill">Skills</string>
+    <string name="strength">Strength</string>
+    <string name="weeknees">Weakness</string>
+    <string name="goal_history">Archived Goals</string>
+    <string name="username">Add Name</string>
+    <string name="editgoal">Edit your goal</string>
+    <string name="back">back</string>
+    <string name="select">Select</string>
+    <string name="name">Enter your name</string>
+</resources>
