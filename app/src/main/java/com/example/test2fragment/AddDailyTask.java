@@ -18,7 +18,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class AddDailyTask extends AppCompatActivity {
+public class    AddDailyTask extends AppCompatActivity {
     private static final String file_name = "idnumber.txt";
     Button addtask;
     EditText entrybox;

@@ -38,6 +38,7 @@ public class editDailyActivity extends AppCompatActivity {
                 String idnum = numar[p];
                 String task = editbox.getText().toString();
                 db.updateuserdata(idnum,task);
+                editbox.getText().clear();
                 }
         });
          }

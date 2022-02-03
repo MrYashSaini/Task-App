@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,7 +20,7 @@ public class AddMainTask extends AppCompatActivity {
     private static final String file_name = "goalidnumber.txt";
 
     Button addtask;
-    TextView entrybox;
+    EditText entrybox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +87,7 @@ public class AddMainTask extends AppCompatActivity {
 
                 String task = entrybox.getText().toString();
                 db.insertuserdata(id,task);
+                entrybox.getText().clear();
             }
         });
     }

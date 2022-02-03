@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,7 +21,7 @@ public class AddProfile extends AppCompatActivity {
     private static final String file_name = "profileidnumber.txt";
 
     Button addtask;
-    TextView entrybox;
+    EditText entrybox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +91,8 @@ public class AddProfile extends AppCompatActivity {
 
                 String task = entrybox.getText().toString();
                 db.insertuserdata(id,task,typepf);
-                Toast.makeText(AddProfile.this, typepf+id, Toast.LENGTH_SHORT).show();
+                entrybox.getText().clear();
+                Toast.makeText(AddProfile.this, "Add", Toast.LENGTH_SHORT).show();
             }
         });
     }
