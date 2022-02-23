@@ -27,7 +27,7 @@ public class    AddDailyTask extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_daily_task);
-        getSupportActionBar().setTitle("Add Work");
+        getSupportActionBar().setTitle("Add Daily Task");
         addtask = findViewById(R.id.adddailytaskbutton);
         entrybox = findViewById(R.id.dailytaskentrybox);
         databasemenu db = new databasemenu(this);

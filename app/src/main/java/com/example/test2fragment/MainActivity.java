@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.fortest,dailyTaskFragment);
                 transaction.commit();
+                getSupportActionBar().setTitle("Daily Task");
 
             }
         });
@@ -53,12 +54,18 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.fortest,maintaskfragment);
                 transaction.commit();
+                getSupportActionBar().setTitle("Goals");
+
             }
         });
 //set profile fragment on main activity
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
+
+
             public void onClick(View v) {
+                getSupportActionBar().setTitle("Profile");
+
                 FileInputStream fis = null;
                 String namestore = null;
                 try {

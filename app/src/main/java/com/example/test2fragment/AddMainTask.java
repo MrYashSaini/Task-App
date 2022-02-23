@@ -25,6 +25,7 @@ public class AddMainTask extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_main_task);
+        getSupportActionBar().setTitle("Add Goals");
         addtask = findViewById(R.id.addgoalbtn);
         entrybox = findViewById(R.id.goalentrybox);
         goaldatabasemenu db = new goaldatabasemenu(this);

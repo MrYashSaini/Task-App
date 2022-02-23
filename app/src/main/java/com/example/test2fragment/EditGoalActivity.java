@@ -18,7 +18,7 @@ public class EditGoalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_goal);
         editbox = findViewById(R.id.editgoalentrybox);
         editbutton = findViewById(R.id.editgoalbtn);
-
+        getSupportActionBar().setTitle("Edit Goal");
         Intent intent = getIntent();
         String id_Index = intent.getStringExtra("User_Value");
 

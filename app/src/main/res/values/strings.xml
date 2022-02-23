@@ -2,7 +2,7 @@
     <string name="app_name">My Plan</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="go">go</string>
-    <string name="dailytask">Daily Work</string>
+    <string name="dailytask">Daily Task</string>
     <string name="maintask">Goals</string>
     <string name="profile">Profile</string>
     <string name="adddailytask">Enter your Daily Task</string>

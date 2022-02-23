@@ -38,6 +38,7 @@ public class DailyTaskFragment extends Fragment {
     }
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
@@ -49,6 +50,7 @@ public class DailyTaskFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_daily_task, container, false);
         Button button = v.findViewById(R.id.adddailytask);
+        MainActivity ma = new MainActivity();
         databasemenu db = new databasemenu(getContext());
         button.setOnClickListener(new View.OnClickListener() {
             @Override

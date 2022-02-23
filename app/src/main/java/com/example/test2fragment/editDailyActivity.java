@@ -19,6 +19,7 @@ public class editDailyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_daily);
         editbox = findViewById(R.id.editentrybox);
         editbutton = findViewById(R.id.editdailybtn);
+        getSupportActionBar().setTitle("Edit Task");
 
         Intent intent = getIntent();
         String id_Index = intent.getStringExtra("User_Value");
