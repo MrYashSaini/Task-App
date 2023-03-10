@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 transaction.replace(R.id.fortest,dailyTaskFragment);
                 transaction.commit();
                 getSupportActionBar().setTitle("Daily Task");
-
             }
         });
 //set main task fragment on main activity
@@ -55,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 transaction.replace(R.id.fortest,maintaskfragment);
                 transaction.commit();
                 getSupportActionBar().setTitle("Goals");
-
             }
         });
 //set profile fragment on main activity

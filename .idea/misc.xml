@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/activity_add_profile.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/activity_showprofileiteams.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/fragment_daily_task.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/fragment_main_task.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/fragment_profile_details.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/test2fragment/app/src/main/res/layout/sampleofrecyleview.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/test2fragment/app/src/main/res/drawable/entrybox.xml" value="0.2203125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/test2fragment/app/src/main/res/drawable/entrybox2.xml" value="0.2203125" />

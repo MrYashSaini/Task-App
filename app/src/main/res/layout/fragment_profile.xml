@@ -15,18 +15,25 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:orientation="vertical">
-
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:src="@drawable/user" />
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                app:civ_border_width="1dp"
+                app:civ_border_color="#3C3C3C"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/user"
+                />
+
 
             <TextView
                 android:id="@+id/nametextView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:layout_gravity="center"
                 android:gravity="center"
                 android:text="@string/username"
                 android:textSize="34sp" />
